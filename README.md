@@ -18,7 +18,7 @@
 ## How to Use
 
 1. **Enter Student Information**: Fill in your name, email, and phone number, then proceed to the task input section.
-2. **Add Tasks**: Input the subject, task description, deadline, and any resource links. Add as many tasks as needed.
+2. **Add Tasks**: Input the subject, task, deadline, and any resource links.
 3. **Track Progress**: As you complete tasks, mark them as done, and your progress will be updated automatically.
 4. **Share Your Study Plan**:
     - Copy it to the clipboard for quick sharing.
