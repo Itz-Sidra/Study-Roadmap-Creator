@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #a1c4fd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #84b6e3;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+#progress-section {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4a4a8d;
+}
+.progress-fill {
+    background-color: #4a4a8d;
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+}
+
+#roadmap .task-item {
+    background-color: #fce4ec;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+

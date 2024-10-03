@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Roadmap Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Study Roadmap Creator</h1>
+        
+        <!-- Student Information Page -->
+        <div id="studentInfoPage">
+            <h2>Student Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+            <button id="nextButton">Next</button>
+        </div>
+
+        <!-- Task Input Page -->
+        <div id="taskInputPage" style="display: none;">
+            <h2>Task Input</h2>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+            <label for="task">Task:</label>
+            <input type="text" id="task" required>
+            <label for="deadline">Deadline:</label>
+            <input type="date" id="deadline" required>
+            <label for="resource">Resource Link:</label>
+            <input type="url" id="resource" placeholder="https://example.com">
+            <button id="addTaskBtn">Add Task</button>
+            <button id="copyButton">Copy Study Plan</button>
+            <button id="emailButton">Email Study Plan</button>
+            <button id="shareButton">Share via Web Share</button>
+            <h3>Tasks</h3>
+            <div id="roadmap"></div>
+            <ul id="taskList"></ul>
+            <div id="progressContainer">
+                <p>Progress: <span id="progressPercentage">0%</span></p>
+                <div id="progressBar" class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
