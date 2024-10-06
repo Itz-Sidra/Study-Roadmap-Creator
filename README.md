@@ -56,4 +56,4 @@ The colors used in the Study Roadmap Creator were carefully selected to create a
 - White: `#FFFFFF`
 
 ## Demo
-You can access the live demo here: https://itz-sidra.github.io/Study-Roadmap-Creator/
+You can access the live demo here:(https://itz-sidra.github.io/Study-Roadmap-Creator/)
