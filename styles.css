@@ -38,7 +38,7 @@ input[type="url"] {
 button {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #a1c4fd;
+    background-color: #538ce6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #84b6e3;
+    background-color: #0d76d2;
 }
 
 #taskList {
